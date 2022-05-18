@@ -1,0 +1,6 @@
+.pre-commit*
+**.tfstate*
+.terraform
+darwin**
+**backend.tf
+**.sh
