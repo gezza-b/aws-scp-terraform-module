@@ -4,3 +4,4 @@
 darwin**
 **backend.tf
 **.sh
+**/.terraform*

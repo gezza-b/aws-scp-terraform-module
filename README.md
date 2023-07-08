@@ -12,6 +12,13 @@ Included statements are:
 * Deny changes of AWS Config resources
 * Deny changes of AWS CloudTrail resources
 
+## Why I find this module useful
+
+The module makes it easier to manage AWS SCP (service control policy) rules at a large scale. 
+SCPs have a size limitation of SCPs, which is 5,120 bytes per SCP. 
+The approach provides a smart way to enable and disable rules for individually generated SCPs.
+Because modules can be versioned, managing several versions in different environments is also easy.
+For example, you can test the latest version in a Development or Test environment but have your Production environment on a lower minor release version. 
 
 ## Example for a Service Contol Policy
 
